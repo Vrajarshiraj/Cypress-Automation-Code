@@ -1,0 +1,24 @@
+{
+
+    "Sales_Demo_BM_Login":"BMdemo",
+    "Sales_Demo_BM_Password":"BoringAI@1",
+
+    "Sales_Demo_FD_Login":"FDdemo",
+    "Sales_Demo_FD_Password":"BoringAI@2",
+
+    "BM_Demo_Login_Invalid_Username":"InvalidUserName",
+    "BM_Demo_Login_Invalid_Password":"InvalidPassword",
+
+    "sales_Demo_2factor1":"1",
+    "sales_Demo_2factor2":"2",
+    "sales_Demo_2factor3":"3",
+    "sales_Demo_2factor4":"4",
+    "sales_Demo_2factor5":"5",
+    "sales_Demo_2factor6":"6"
+
+
+    
+
+}
+
+

@@ -1,0 +1,321 @@
+{
+   
+    "POGO_BM_Loginpage":{
+        "POGO_BM_Username":"//input[@name='username']",        
+        "POGO_BM_Password":"//input[@name='password']",
+        
+        "POGO_BM_Login_btn":"//button[text()='continue']",
+        "POGO_BM_Login_Success_Header":"//span[text()='Optimizer Galaxy']",
+        "POGO_BM_Login_Unsuccess_Text":"//small[text()='Wrong username or password. Try again or click Forgot password to reset it.']",
+        "POGO_BM_Login_Welcome_Text":"//div[text()='Welcome Back!']",
+        
+        "POGO_BM_Login_RememberMe_Chkbox":"//div[@class='form-check'] //input[@type='checkbox']",
+        "POGO_BM_Login_RememberMe_Text":"//label[text()='Remember Me']",
+        
+        "POGO_BM_ForgotPassword_link":"//a[text()='Forgot password?']",
+        "POGO_BM_ForgetPassword_Header":"//div[text()='Forgot Password']",
+        
+        "POGO_BM_Login_Support":"//a[text()='Support']",
+        "POGO_BM_Login_SikkaImage":"//div[@class='row px-3 justify-content-center mt-4 border-line'] //img",
+        "POGO_BM_Login_EyeImage":"//div[@class='input-group-text'] //img",
+        "POGO_BM_Login_AccountSetup":"//a[text()='Complete Account Setup']",
+        
+        "POGO_BM_UserName_label":"//label[text()='User Name']",
+        "POGO_BM_Password_label":"//label[text()='Password']",
+
+        "POGO_BM_Login_2factor1":"//input[@name='0']",
+        "POGO_BM_Login_2factor2":"//input[@name='1']",
+        "POGO_BM_Login_2factor3":"//input[@name='2']",
+        "POGO_BM_Login_2factor4":"//input[@name='3']",
+        "POGO_BM_Login_2factor5":"//input[@name='4']",
+        "POGO_BM_Login_2factor6":"//input[@name='5']",
+        "POGO_BM_Login_btn2":"//button[contains(text(),'log in')]"
+
+        
+    },
+
+    "POGO_FD_Loginpage":{
+        "POGO_FD_Username":"#root > div > div > div > div > div > div.col-lg-7 > div > form > div:nth-child(1) > div > input",        
+        "POGO_FD_Password":"#root > div > div > div > div > div > div.col-lg-7 > div > form > div:nth-child(2) > div > div > input",
+        "POGO_FD_Login_btn":"#root > div > div > div > div > div > div.col-lg-7 > div > form > div:nth-child(4) > button"
+    },
+    
+    "POGO_BM_FeeScheduleAnalysis":{
+        "POGO_BM_Login_FeeScheduleAnalysis":"#top-nav-bar > div > div:nth-child(1) > div:nth-child(2) > ul > li:nth-child(7) > a",
+        "POGO_BM_FeeScheduleAnalysis_Header":"#provider-productivity-page > div:nth-child(1) > div > div:nth-child(1) > div > div > div > span",
+        "POGO_BM_PracticeViewFeeSchedule_Text":"#provider-productivity-page > div:nth-child(2) > div:nth-child(1) > span",
+        "POGO_BM_CompareFeeSchedule_Label":"#provider-productivity-page > div:nth-child(4) > div:nth-child(1) > div:nth-child(1)",
+
+        "POGO_BM_SelectPractice_btn":"#root > div > div:nth-child(1) > div > div.divPracticeName > button",
+        "POGO_BM_SelectGroup_Tab":"#grouping > div > div > div.chart-button-group > div:nth-child(2)",
+        "POGO_BM_SelectGroup_All":"#grouping > div > div > div:nth-child(3) > div:nth-child(1) > div",
+        "POGO_BM_GO_btn":"#grouping > div > div > div:nth-child(4) > button:nth-child(2)",
+
+
+        "POGO_BM_ProceduresCategory_Dropdown":"select[name='dropdownSelect']",
+
+        "POGO_BM_MasterStandardFee_Chkbox":"#provider-productivity-page > div:nth-child(4) > div:nth-child(2) > div.col-lg-3.col-xl-3 > div > div > div:nth-child(2) > div > input[type=checkbox]",
+        "POGO_BM_ClearAll":"#provider-productivity-page > div:nth-child(4) > div:nth-child(2) > div.col-lg-3.col-xl-3 > div > div > div:nth-child(1) > div:nth-child(2)",
+
+        "POGO_BM_ClearedGraph_RowRange1_$1":"#chart-axis-1-tickLabels-4 > tspan",
+        "POGO_BM_ClearedGraph_RowRange2_$1":"#chart-axis-1-tickLabels-3 > tspan",
+        "POGO_BM_ClearedGraph_RowRange3_$1":"#chart-axis-1-tickLabels-2 > tspan",
+        "POGO_BM_ClearedGraph_RowRange4_$0":"#chart-axis-1-tickLabels-1 > tspan",
+        "POGO_BM_ClearedGraph_Rowrange5_$0":"#chart-axis-1-tickLabels-0 > tspan",
+
+        "POGO_BM_MasterStandardFee_leftdrpdown":"#expandable-table > thead > tr:nth-child(2) > th:nth-child(1) > div > select",
+        "POGO_BM_MasterStandardFee_Rightdropdown":"#expandable-table > thead > tr:nth-child(2) > th:nth-child(2) > div > select",
+
+        "POGO_BM_Category_FirstRow_Toggle":"#expandable-table > tbody > tr:nth-child(1) > td > div > i",
+        "POGO_BM_Category_SecondRow_Toggle":"#expandable-table > tbody > tr:nth-child(3) > td > div > i",
+
+        "POGO_BM_Category_FeeScheduleLeftColumn":"#expandable-table > tbody > tr td:nth-child(2)",
+        "POGO_BM_Category_DifferenceAbsoluteColumn":"#expandable-table > tbody > tr td:nth-child(4)",
+
+        "POGO_BM_Category_AffinityDental_Tooltip":"#provider-productivity-page > div:nth-child(2) > div:nth-child(2) > div > div > svg > g > foreignObject > div > div > div:nth-child(1) > div:nth-child(2)",
+        "POGO_BM_Category_AffinityDental_Practice":"#provider-productivity-page > div:nth-child(2) > div:nth-child(2) > div > svg > g:nth-child(2) > g:nth-child(14)",
+        "POGO_BM_Practice_AffinityDental_label":"#provider-productivity-page > div:nth-child(3)",
+
+        "POGO_BM_Category_DentaBrightClinic_Practice":"#provider-productivity-page > div:nth-child(2) > div:nth-child(2) > div > svg > g:nth-child(2) > g:nth-child(13)",
+        "POGO_BM_Category_DentaBrightClinic_Tooltip":"#provider-productivity-page > div:nth-child(2) > div:nth-child(2) > div > div > svg > g > foreignObject > div > div > div:nth-child(1) > div:nth-child(2)",
+        "POGO_BM_Practice_DentaBrightClinic_label":"#provider-productivity-page > div:nth-child(3)"
+        
+        
+        
+    },
+
+    "POGO_BM_PatientAnalysis":{
+        "POGO_BM_Login_MenuIcon":"#root > div > div:nth-child(1) > div > div.divLogo > i",        
+        "POGO_BM_Login_Menu_Analysis_Tab":"#top-nav-bar > div > div > div:nth-child(2) > div",
+        "POGO_BM_Login_btn":""
+    },
+
+    "POGO_BM_HomePage":{
+        
+        "POGO_BM_SelectPractice_Btn":"#root > div > div:nth-child(1) > div > div.divPracticeName > button",
+        "POGO_BM_SelectGroup_Tab":"#grouping > div > div > div.chart-button-group > div:nth-child(2)",
+        "POGO_BM_SelectGroupALL_Btn":"#grouping > div > div > div:nth-child(3) > div:nth-child(1) > div > div",
+        "POGO_BM_Go_Btn":".btn",
+
+        "POGO_BM_TimeRange_Btn":".cdd-preview-box",
+        "POGO_BM_TimeRange_Month":".cdd-menu-item",
+        "POGO_BM_DateRange_Btn":".dsp-range-preview",
+        "POGO_BM_DateRange_1Jan2021":"#monthsc-cal-box > div:nth-child(5) > div > div > div:nth-child(2) > div:nth-child(1)",
+        "POGO_BM_DateRange_31Dec2021":"#monthsc-cal-box > div:nth-child(5) > div > div > div:nth-child(4) > div:nth-child(4)",
+        "POGO_BM_DateRange_Apply":".dc-apply",
+
+        "POGO_BM_PracticeProfile_QuadrantChart_SelectPractice":"div:nth-child(1) > .VictoryContainer > svg > g:nth-child(7) > path:nth-child(2)",
+        "POGO_BM_PracticeProfile_Xaxis_LeftDropdown":".qc-row:nth-child(2) > span > span > div > div > div > .dd-selection-container",
+        "POGO_BM_PracticeProfile_Xaxis_RightDropdown":".qc-row:nth-child(2) > span > div > div > div > .dd-selection-container",
+        "POGO_BM_PracticeProfile_Yaxis_LeftDropdown":".qc-row:nth-child(3) > span > span > div > div > div > .dd-selection-container",
+        "POGO_BM_PracticeProfile_Yaxis_RightDropdown":".qc-row:nth-child(3) > span > div > div > div > .dd-selection-container",
+        "POGO_BM_PracticeProfile_Apply":"span > div > .cpu-container > .cpu-button-container > button",
+
+        "POGO_BM_ProviderProductivity_Dropdown":".form-control[name='providerProdSelect']",
+
+        "POGO_BM_InsuranceAnalysis_Claims_LeftDropdown":"div > div > div > .btn-toolbar:nth-child(2) > .insurance-analysis-btn",
+        "POGO_BM_InsuranceAnalysis_Claims_LeftDropdown_TotalOutstanding":".fade:nth-child(10) > .modal-dialog > .modal-content > div > .popup-radio-buttons > div > #total",
+        "POGO_BM_InsuranceAnalysis_Claims_LeftDropdown_daysoutstanding0to30":".fade:nth-child(10) > .modal-dialog > .modal-content > div > .popup-radio-buttons > div > #daysoutstanding\\(0-30\\)",
+        "POGO_BM_InsuranceAnalysis_Claims_LeftDropdown_daysoutstanding30to60":".fade:nth-child(10) > .modal-dialog > .modal-content > div > .popup-radio-buttons > div > #daysoutstanding\\(30-60\\)",
+        "POGO_BM_InsuranceAnalysis_Claims_LeftDropdown_daysoutstanding60to90":".fade:nth-child(10) > .modal-dialog > .modal-content > div > .popup-radio-buttons > div > #daysoutstanding\\(60-90\\)",
+        "POGO_BM_InsuranceAnalysis_Claims_LeftDropdown_daysoutstanding90":".fade:nth-child(10) > .modal-dialog > .modal-content > div > .popup-radio-buttons > div > #perdaysoutstanding",
+        "POGO_BM_InsuranceAnalysis_Claims_RightDropdown":"div > div > div > .btn-toolbar:nth-child(4) > .insurance-analysis-btn",
+        "POGO_BM_InsuranceAnalysis_Claims_Apply":"body > div:nth-child(10) > div > div > div.modal-footer > button",
+        "POGO_BM_InsuranceAnalysis_Claims_Xaxis":"div:nth-child(2) > .VictoryContainer > svg > g > #chart-axis-7-axisLabel-0 > tspan",
+
+        "POGO_BM_QuickStat_NetProduction_LeftDropdown":"#root > div > div.container-fluid.content.appDiv > div > div:nth-child(8) > div > div:nth-child(1) > div > div:nth-child(2) > div.left-dropdown > select",
+        "POGO_BM_QuickStat_NetProduction_RightDropdown":"#root > div > div.container-fluid.content.appDiv > div > div:nth-child(8) > div > div:nth-child(1) > div > div:nth-child(2) > div:nth-child(2) > select",
+        "POGO_BM_QuickStat_PatientSeen_LeftDropdown":"#root > div > div.container-fluid.content.appDiv > div > div:nth-child(8) > div > div:nth-child(2) > div > div:nth-child(2) > div.left-dropdown > select",
+        "POGO_BM_QuickStat_PatientSeen_RightDropdown":"#root > div > div.container-fluid.content.appDiv > div > div:nth-child(8) > div > div:nth-child(2) > div > div:nth-child(2) > div:nth-child(2) > select",
+        "POGO_BM_QuickStat_Collections_LeftDropdown":"#root > div > div.container-fluid.content.appDiv > div > div:nth-child(8) > div > div:nth-child(3) > div > div:nth-child(2) > div.left-dropdown > select",
+        "POGO_BM_QuickStat_Collections_RightDropdown":"#root > div > div.container-fluid.content.appDiv > div > div:nth-child(8) > div > div:nth-child(3) > div > div:nth-child(2) > div:nth-child(2) > select"
+    },   
+    
+    "POGO_BM_ProviderProductivity":{
+        "POGO_BM_MenuIcon_Tab":"#root > div > div:nth-child(1) > div > div.divLogo > i",        
+        "POGO_BM_Menu_Analysis_Tab":"#top-nav-bar > div > div > div:nth-child(2) > div",
+        "POGO_BM_ProviderProductivity_NetCollection_Tab":"#provider-productivity-page > div.chart-button-group > div:nth-child(2)",
+        "POGO_BM_ProviderProductivity_PatientVisits_Tab":"#provider-productivity-page > div.chart-button-group > div:nth-child(3)",
+        "POGO_BM_ProviderProductivity_HygienistROI_Tab":"#provider-productivity-page > div.chart-button-group > div:nth-child(4)",
+      
+        "POGO_BM_ProviderProductivity_Heading":"#provider-productivity-page > div:nth-child(1) > div > div:nth-child(1) > div:nth-child(1) > div > div > span",
+        "POGO_BM_SelectPractice_Btn":"#root > div > div:nth-child(1) > div > div.divPracticeName > button",
+        "POGO_BM_SelectGroup_Tab":"#grouping > div > div > div.chart-button-group > div:nth-child(2)",
+        "POGO_BM_SelectGroupALL_Btn":"#grouping > div > div > div:nth-child(3) > div:nth-child(1) > div > div",
+        "POGO_BM_Go_Btn":".btn",
+
+        "POGO_BM_TimeRange_Btn":".cdd-preview-box",
+        "POGO_BM_TimeRange_Month":".cdd-menu-item",
+        "POGO_BM_DateRange_Btn":".dsp-range-preview",
+        "POGO_BM_DateRange_1Jan2021":"#monthsc-cal-box > div:nth-child(5) > div > div > div:nth-child(2) > div:nth-child(1)",
+        "POGO_BM_DateRange_31Dec2021":"#monthsc-cal-box > div:nth-child(5) > div > div > div:nth-child(4) > div:nth-child(4)",
+        "POGO_BM_DateRange_Apply":".dc-apply",
+
+        "POGO_BM_ProviderProductivity_ClearAll_Btn":"#provider-productivity-page > div:nth-child(5) > div:nth-child(2) > div.col-lg-3.col-xl-3 > div > div:nth-child(1) > div:nth-child(2)",
+        "POGO_BM_ProviderProductivity_Pleaseselectatleastone":"#provider-productivity-page > div:nth-child(5) > div:nth-child(2) > div.col-lg-9.col-xl-9 > div > div > div:nth-child(1)",
+        "POGO_BM_ProviderProductivity_Dentist_Btn":"#provider-productivity-page > div:nth-child(2) > button:nth-child(1)",
+        "POGO_BM_ProviderProductivity_Hygienist_Btn":"#provider-productivity-page > div:nth-child(2) > button:nth-child(2)",
+        "POGO_BM_ProviderProductivity_Table":"#provider-productivity-page > div:nth-child(6)"
+    },
+
+
+    "POGO_BM_Selectgroupfn":{
+
+        "POGO_BM_ClickAllBtn":"div.divPracticeName>button",        
+        "POGO_BM_Selectgrouptab":"#grouping > div > div > div.chart-button-group > div:nth-child(2)",
+        "All_Title":".titleText",
+        "Group_Title":".titleText",
+
+        "Group_AllGroupDiv":"#grouping > div > div > div:nth-child(3)",
+        "Group_perticularDiv":"#root > div > div.container-fluid.content.appDiv > div > div:nth-child(2) > div.col-xxl-8.pr-lg-2.mb-3.col-xl-7 > div",
+        "Group_GroupAll_Groupname":"#grouping > div > div > div:nth-child(3) > div:nth-child(1) > div > div > div:nth-child(1) > span:nth-child(1)",
+        "Group_groupAll_NoPractice":"#grouping > div > div > div:nth-child(3) > div:nth-child(1) > div > div > div:nth-child(1) > span:nth-child(2)",
+        "Group_GroupAll_Practices":"#grouping > div > div > div:nth-child(3) > div:nth-child(1) > div > div > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > span",
+        "Group_GroupAll_City":"#grouping > div > div > div:nth-child(3) > div:nth-child(1) > div > div > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > span",
+
+        "Group_GroupSecond_Groupname":"#grouping > div > div > div:nth-child(3) > div:nth-child(2) > div > div > div:nth-child(1) > span:nth-child(1)",
+        "Group_groupSecond_NoPractice":"#grouping > div > div > div:nth-child(3) > div:nth-child(2) > div > div > div:nth-child(1) > span:nth-child(2)",
+        "Group_GroupSecond_Practices":"#grouping > div > div > div:nth-child(3) > div:nth-child(2) > div > div > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > span",
+        "Group_GroupSecond_City":"#grouping > div > div > div:nth-child(3) > div:nth-child(2) > div > div > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > span",
+        
+        "Group_GroupThird_Groupname":"#grouping > div > div > div:nth-child(3) > div:nth-child(3) > div > div > div:nth-child(1) > span:nth-child(1)",
+        "Group_groupThird_NoPractice":"#grouping > div > div > div:nth-child(3) > div:nth-child(3) > div > div > div:nth-child(1) > span:nth-child(2)",
+        "Group_GroupThird_Practices":"#grouping > div > div > div:nth-child(3) > div:nth-child(3) > div > div > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > span",
+        "Group_GroupThird_City":"#grouping > div > div > div:nth-child(3) > div:nth-child(3) > div > div > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > span",
+        
+        "Group_Cancel_Button":"#grouping > div > div > div:nth-child(4) > button:nth-child(1)",
+        "Group_Go_Button":"#grouping > div > div > div:nth-child(4) > button:nth-child(2)",
+
+        "Group_VerifyCancelClick":"#root > div > div.container-fluid.content.appDiv > div > div:nth-child(2) > div.col-xxl-8.pr-lg-2.mb-3.col-xl-7 > div > div:nth-child(1) > div:nth-child(1) > span",
+        "Group_VerifyGoClick":"#grouping > div > div > div:nth-child(3) > div:nth-child(2) > div > div > div:nth-child(2) > span:nth-child(1)",
+        "Group_VerifyGoClick2":"#root > div > div:nth-child(1) > div > div.divPracticeName > button"
+    },
+
+    "POGO_BM_OfficePracticefn":{
+        "BM_Office_AllButton":"div.divPracticeName>button",
+        "BM_Office_VerifyAllPage":".titleText",
+        "BM_Office_PracticeDiv":"#grouping > div > div > div:nth-child(3)",
+        "BM_Office_Indi_div":"#grouping > div > div > div:nth-child(3) > div:nth-child(1) > div",
+
+        "Office_firstPractice_PracticeNames" :"#grouping > div > div > div:nth-child(3) > div:nth-child(1) > div > div > div:nth-child(1) > span:nth-child(1)",
+        "Office_firstPractice_Phonenumber":"#grouping > div > div > div:nth-child(3) > div:nth-child(1) > div > div > div:nth-child(1) > span:nth-child(2)",
+        "Office_firstPractice_City":"#grouping > div > div > div:nth-child(3) > div:nth-child(1) > div > div > div:nth-child(3) > span:nth-child(1)",
+        "Office_firstPractice_State":"#grouping > div > div > div:nth-child(3) > div:nth-child(1) > div > div > div:nth-child(3) > span:nth-child(2)",
+        "Office_firstPractice_NoofProvider":"#grouping > div > div > div:nth-child(3) > div:nth-child(1) > div > div > div:nth-child(5) > span:nth-child(1)",
+        "Office_firstPractice_NoofActivept":"#grouping > div > div > div:nth-child(3) > div:nth-child(1) > div > div > div:nth-child(5) > span:nth-child(2)",
+        "Office_firstPractice_Speciality":"#grouping > div > div > div:nth-child(3) > div:nth-child(1) > div > div > div:nth-child(7) > span:nth-child(1)",
+        "Office_firstPractice_NPI":"#grouping > div > div > div:nth-child(3) > div:nth-child(1) > div > div > div:nth-child(7) > span:nth-child(2)",
+        "Office_firstPractice_PMS":"#grouping > div > div > div:nth-child(3) > div:nth-child(1) > div > div > div:nth-child(9) > span:nth-child(1)",
+        "Office_firstPractice_MCID":"#grouping > div > div > div:nth-child(3) > div:nth-child(1) > div > div > div:nth-child(9) > span:nth-child(2)",
+
+        "Office_SecondPractice_PracticeNames" :"#grouping > div > div > div:nth-child(3) > div:nth-child(2) > div > div > div:nth-child(1) > span:nth-child(1)",
+        "Office_SecondPractice_Phonenumber":"#grouping > div > div > div:nth-child(3) > div:nth-child(2) > div > div > div:nth-child(1) > span:nth-child(2)",
+        "Office_SecondPractice_City":"#grouping > div > div > div:nth-child(3) > div:nth-child(2) > div > div > div:nth-child(3) > span:nth-child(1)",
+        "Office_SecondPractice_State":"#grouping > div > div > div:nth-child(3) > div:nth-child(2) > div > div > div:nth-child(3) > span:nth-child(2)",
+        "Office_SecondPractice_NoofProvider":"#grouping > div > div > div:nth-child(3) > div:nth-child(2) > div > div > div:nth-child(5) > span:nth-child(1)",
+        "Office_SecondPractice_NoofActivept":"#grouping > div > div > div:nth-child(3) > div:nth-child(2) > div > div > div:nth-child(5) > span:nth-child(2)",
+        "Office_SecondPractice_Speciality":"#grouping > div > div > div:nth-child(3) > div:nth-child(2) > div > div > div:nth-child(7) > span:nth-child(1)",
+        "Office_SecondPractice_NPI":"#grouping > div > div > div:nth-child(3) > div:nth-child(2) > div > div > div:nth-child(7) > span:nth-child(2)",
+        "Office_SecondPractice_PMS":"#grouping > div > div > div:nth-child(3) > div:nth-child(2) > div > div > div:nth-child(9) > span:nth-child(1)",
+        "Office_SecondPractice_MCID":"#grouping > div > div > div:nth-child(3) > div:nth-child(2) > div > div > div:nth-child(9) > span:nth-child(2)",
+
+        "Office_ThirdPractice_Div":"#grouping > div > div > div:nth-child(3) > div:nth-child(3) > div",
+        "Office_ThirdPractice_PracticeNames" :"#grouping > div > div > div:nth-child(3) > div:nth-child(3) > div > div > div:nth-child(1) > span:nth-child(1)",
+        "Office_ThirdPractice_Phonenumber":"#grouping > div > div > div:nth-child(3) > div:nth-child(3) > div > div > div:nth-child(1) > span:nth-child(2)",
+        "Office_ThirdPractice_City":"#grouping > div > div > div:nth-child(3) > div:nth-child(3) > div > div > div:nth-child(3) > span:nth-child(1)",
+        "Office_ThirdPractice_State":"#grouping > div > div > div:nth-child(3) > div:nth-child(4) > div > div > div:nth-child(3) > span:nth-child(2)",
+        "Office_ThirdPractice_NoofProvider":"#grouping > div > div > div:nth-child(3) > div:nth-child(3) > div > div > div:nth-child(5) > span:nth-child(1)",
+        "Office_ThirdPractice_NoofActivept":"#grouping > div > div > div:nth-child(3) > div:nth-child(3) > div > div > div:nth-child(5) > span:nth-child(2)",
+        "Office_ThirdPractice_Speciality":"#grouping > div > div > div:nth-child(3) > div:nth-child(3) > div > div > div:nth-child(7) > span:nth-child(1)",
+        "Office_ThirdPractice_NPI":"#grouping > div > div > div:nth-child(3) > div:nth-child(4) > div > div > div:nth-child(7) > span:nth-child(2)",
+        "Office_ThirdPractice_PMS":"#grouping > div > div > div:nth-child(3) > div:nth-child(3) > div > div > div:nth-child(9) > span:nth-child(1)",
+        "Office_ThirdPractice_MCID":"#grouping > div > div > div:nth-child(3) > div:nth-child(3) > div > div > div:nth-child(9) > span:nth-child(2)",
+
+        "Office_Cancel_Button":"#grouping > div > div > div:nth-child(4) > button:nth-child(1)",
+        "Office_Go_Button":"#grouping > div > div > div:nth-child(4) > button:nth-child(2)",
+
+        "Office_Verify_Cancel":"#root > div > div.container-fluid.content.appDiv > div > div:nth-child(2) > div.col-xxl-8.pr-lg-2.mb-3.col-xl-7 > div > div:nth-child(1) > div:nth-child(1) > span",
+        "Office_Verify_Go1":"#grouping > div > div > div:nth-child(3) > div:nth-child(1) > div > div > div:nth-child(2) > span:nth-child(1)",
+        "Office_Verify_Go2":"#root > div > div:nth-child(1) > div > div.divPracticeName > button"
+
+
+    },
+    "POGO_BM_GrossProductionByDentalCategory":{
+        "POGO_BM_Login_MenuIcon":"#root > div > div:nth-child(1) > div > div.divLogo > i",        
+        "POGO_BM_Login_Menu_Analysis_Tab":"#top-nav-bar > div > div:nth-child(1) > div:nth-child(2) > div > div",
+       "POGO_BM_Login_Date":"#root > div > div.container-fluid.content.appDiv > div:nth-child(1) > div > div:nth-child(1) > div.dc-container > div.dsp-container > div:nth-child(2) > div > div.cdd-preview-box",
+       "POGO_BM_Login_Date1":"#root > div > div.container-fluid.content.appDiv > div:nth-child(1) > div > div:nth-child(1) > div.dc-container > div.dsp-container > div:nth-child(2) > div > div.cdd-menu-container > div:nth-child(3)",
+       "POGO_BM_Login_Date2":"#root > div > div.container-fluid.content.appDiv > div:nth-child(1) > div > div:nth-child(1) > div.dc-container > div.dsp-container > div.dsp-dates-preview > div",
+       "POGO_BM_Login_Date3":"#monthsc-cal-box > div:nth-child(1) > div > div > div:nth-child(2) > div:nth-child(1)",
+       "POGO_BM_Login_Date4":"#monthsc-cal-box > div:nth-child(1) > div > div > div:nth-child(4) > div:nth-child(4)",
+       "POGO_BM_Login_Date5":"#root > div > div:nth-child(1) > div > div.divPracticeName > button",
+       "POGO_BM_Login_Date6":"#grouping > div > div > div.chart-button-group > div:nth-child(2)",
+       "POGO_BM_Login_Date7":"#grouping > div > div > div:nth-child(3) > div:nth-child(1) > div > div",
+       "POGO_BM_Login_Date8":"#grouping > div > div > div:nth-child(4) > button:nth-child(2)",
+       "POGO_BM_Login_Date9":"#root > div > div.container-fluid.content.appDiv > div:nth-child(2) > div:nth-child(2) > div.col-lg-4.col-xl-4 > div > div:nth-child(1) > div:nth-child(2)",
+       "POGO_BM_Login_Date10":" #root > div > div.container-fluid.content.appDiv > div:nth-child(2) > div:nth-child(2) > div.col-lg-4.col-xl-4 > div > div:nth-child(2) > div:nth-child(1) > input[type=checkbox]",
+       "POGO_BM_Login_Date11":" #root > div > div.container-fluid.content.appDiv > div:nth-child(2) > div:nth-child(2) > div.col-lg-4.col-xl-4 > div > div:nth-child(2) > div:nth-child(2) > input[type=checkbox]",
+       "POGO_BM_Login_Date12":" #root > div > div.container-fluid.content.appDiv > div:nth-child(2) > div:nth-child(2) > div.col-lg-4.col-xl-4 > div > div:nth-child(2) > div:nth-child(3) > input[type=checkbox]",
+       "POGO_BM_Login_Date13":" #root > div > div.container-fluid.content.appDiv > div:nth-child(2) > div:nth-child(2) > div.col-lg-4.col-xl-4 > div > div:nth-child(2) > div:nth-child(4) > input[type=checkbox]",
+       "POGO_BM_Login_Date14":" #root > div > div.container-fluid.content.appDiv > div:nth-child(2) > div:nth-child(2) > div.col-lg-4.col-xl-4 > div > div:nth-child(2) > div:nth-child(5) > input[type=checkbox]",
+       "POGO_BM_Login_Date15":"#root > div > div.container-fluid.content.appDiv > div:nth-child(2) > div:nth-child(2) > div.col-lg-4.col-xl-4 > div > div:nth-child(2) > div:nth-child(6) > input[type=checkbox]",
+       "POGO_BM_Login_Date16":"#root > div > div.container-fluid.content.appDiv > div:nth-child(2) > div:nth-child(2) > div.col-lg-4.col-xl-4 > div > div:nth-child(2) > div:nth-child(7) > input[type=checkbox]",
+       "POGO_BM_Login_Date17":"#root > div > div.container-fluid.content.appDiv > div:nth-child(2) > div:nth-child(2) > div.col-lg-4.col-xl-4 > div > div:nth-child(2) > div:nth-child(8) > input[type=checkbox]",
+      
+       "POGO_BM_Login_Date18":"#chart-axis-1-axisLabel-0 > tspan",
+       "POGO_BM_Login_Date19":"#root > div > div.container-fluid.content.appDiv > div:nth-child(1) > div > div:nth-child(1) > div.dc-container > div.dsp-container > div:nth-child(2) > div > div.cdd-preview-box",
+       "POGO_BM_Login_Date20":"#root > div > div.container-fluid.content.appDiv > div:nth-child(1) > div > div:nth-child(1) > div.dc-container > div.dsp-container > div.dsp-dates-preview > svg > line:nth-child(2)",
+       "POGO_BM_Login_Date21":"#monthsc-cal-box > div:nth-child(1) > div > div > div:nth-child(2) > div.months-month.undefined.selected-date",
+       "POGO_BM_Login_Date22":"#monthsc-cal-box > div:nth-child(1) > div > div > div:nth-child(4) > div:nth-child(4)",
+      
+       "POGO_BM_Login_Date23":"#root > div > div:nth-child(1) > div > div.divPracticeName > button",
+       "POGO_BM_Login_Date24":"#grouping > div > div > div.chart-button-group > div:nth-child(2)",
+       "POGO_BM_Login_Date25":"#grouping > div > div > div:nth-child(3) > div:nth-child(1) > div > div > div:nth-child(1)",
+
+       "POGO_BM_Login_Date26":"#grouping > div > div > div:nth-child(4) > button:nth-child(2)",
+
+        "POGO_BM_Login_btn":""
+
+        
+    },
+    "POGO_BM_RevenueAnalysis":{
+        "POGO_BM_Login_MenuIcon":"#root > div > div:nth-child(1) > div > div.divLogo > i",        
+        "POGO_BM_Login_Menu_Analysis_Tab":"#top-nav-bar > div > div > div:nth-child(2) > div",
+        "POGO_BM_RevenueAnalyasis":"#top-nav-bar > div > div:nth-child(1) > div:nth-child(2) > div > div",
+        "POGO_BM_RevenueAnalysis_Heading":"#provider-productivity-page > div:nth-child(1) > div > div:nth-child(1) > div:nth-child(1) > div > div > span",
+        "POGO_BM_RevenueAnalysis_Dentist_Btn":"#provider-productivity-page > div:nth-child(3) > div > button:nth-child(1)",
+        "POGO_BM_RevenueAnalysis_Hygienist_Btn":"#provider-productivity-page > div:nth-child(3) > div > button:nth-child(2)",
+        "POGO_BM_Revenue_Analysis_feeoptimizer_Tab":"#provider-productivity-page > div.chart-button-group > div:nth-child(2)",
+        "POGO_BM_Revenue_Analysis_feeoptimizer_Table":"#analysis-card",
+        "POGO_BM_SelectPractice_Btn":"#root > div > div:nth-child(1) > div > div.divPracticeName > button",
+        "POGO_BM_SelectGroup_Tab":"#grouping > div > div > div.chart-button-group > div:nth-child(2)",
+        "POGO_BM_SelectGroupALL_Btn":"#grouping > div > div > div:nth-child(3) > div:nth-child(1) > div > div",
+        "POGO_BM_Go_Btn":".btn",
+
+        "POGO_BM_TimeRange_Btn":".cdd-preview-box",
+        "POGO_BM_TimeRange_Month":".cdd-menu-item",
+        "POGO_BM_DateRange_Btn":".dsp-range-preview",
+        "POGO_BM_DateRange_1Jan2021":"#monthsc-cal-box > div:nth-child(5) > div > div > div:nth-child(2) > div:nth-child(1)",
+        "POGO_BM_DateRange_31Dec2021":"#monthsc-cal-box > div:nth-child(5) > div > div > div:nth-child(4) > div:nth-child(4)",
+        "POGO_BM_DateRange_Apply":".dc-apply",
+        "POGO_BM_Production_Collection":"#provider-productivity-page > div.section-card.card > div:nth-child(1) > select",
+        "POGO_BM_Rankby_Dropdown":"#provider-productivity-page > div:nth-child(3) > div:nth-child(1) > div > select",
+        "POGO_BM_Quardrant_analysis_current_btn":"#provider-productivity-page > div:nth-child(5) > div:nth-child(2) > button.fee-optimizer-chart-button.fee-optimizer-chart-button-active",
+        "POGO_BM_Quardrant_analysis_Recommended_btn":"#provider-productivity-page > div:nth-child(5) > div:nth-child(2) > button.fee-optimizer-chart-button.fee-optimizer-chart-button-active",
+        "POGO_BM_Select_90thPercentile_Dropdown":"#provider-productivity-page > div:nth-child(5) > div:nth-child(2) > div > div > button:nth-child(3)",
+        "POGO_BM_Select_80thPercentile_Dropdown":"#provider-productivity-page > div:nth-child(5) > div:nth-child(2) > div > div > button:nth-child(2)",
+        "POGO_BM_Select_70thPercentile_Dropdown":"#provider-productivity-page > div:nth-child(5) > div:nth-child(2) > div > div > button:nth-child(1)"
+        
+
+    }
+       
+}
+    
+
+
+
+
+
+    
+
+
